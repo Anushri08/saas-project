@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./fox-removebg-preview.png"  alt="Quick Jobs Logo">
+            </div>
+            <span>Quick Jobs</span>
+        </div>
+    </header>
+    <div class="search">
+        <div class="search-container">
+            <div class="input-container">
+            <img src="loupe.png" height="15" width="15">
+            <input type="text" id="filter-jobs" placeholder="Search here" name="filter-jobs">
+            </div>
+            <div class="button-container">
+                <span>Find Job</span>
+            </div>
+        </div>
+    </div>
+    <div class="jobs-list">
+        <h1>Showing 15 Jobs</h1>
+        <div class="jobs-container">
+            <div  class="job-tile">
+                <div class="top">
+                    <img src="data:image/png;base64,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"/>
+                    <span class="material-icons more_horiz">more_horiz</span>
+                </div>
+                <div class="rolename">
+                    <span>Lead Product Design</span>
+                </div>
+                <div class="description">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor enim, ornare et luctus vel, laoreet eu lectus. Morbi tortor velit, scelerisque eu felis a, posuere lacinia tortor. Ut diam turpis, laoreet sit amet orci a, consectetur suscipit ante. </span>
+                </div>
+                <div class="buttons">
+                    <div class="button apply-now">
+                      Apply now  
+                    </div>
+                    <div class="button">
+                        Message
+                    </div>
+                </div>
+            </div>
+            <div  class="job-tile">
+                JOB 1
+            </div>
+            <div  class="job-tile">
+                JOB 2
+            </div>
+            <div  class="job-tile">
+                JOB 3
+            </div>
+            <div  class="job-tile">
+                JOB 4
+            </div>
+            <div  class="job-tile">
+                JOB 5
+            </div>
+            <div  class="job-tile">
+                JOB 6
+            </div>
+        </div>
+    </div>
+    <script src="./saas.js"></script>
+</body>
+</html>
